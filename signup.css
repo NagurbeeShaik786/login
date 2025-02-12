@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #f7f7fe, #1385dc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input,
+.input-box textarea,
+.input-box select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-box input[type="submit"] {
+    background: #1385dc;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-box input[type="submit"]:hover {
+    background: #1058a3;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+}
